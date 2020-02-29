@@ -1,0 +1,12 @@
+/* This is where all the CSS will be stored for our footer */
+footer {
+    background-color:white;
+    height: 60px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    border-top: solid 1px #CCCCCC;
+    
+}

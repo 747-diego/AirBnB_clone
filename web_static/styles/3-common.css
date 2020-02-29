@@ -1,0 +1,7 @@
+/* This is where all the CSS will be stored for our body */
+
+body {
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
