@@ -1,0 +1,7 @@
+/* This is where all the CSS will be stored for our header */
+header {
+    background-color: #FF0000;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+}
