@@ -61,7 +61,6 @@ button:hover {
 }
 
 /* This is where all the CSS will be stored for our DROP DOWN  */
-
 .popover {
     visibility: hidden;
     width: 107%;
