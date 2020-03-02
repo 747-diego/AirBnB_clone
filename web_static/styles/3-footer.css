@@ -8,5 +8,7 @@ footer {
     position: absolute;
     bottom:0;
     border-top: solid 1px #CCCCCC;
+    position: fixed;
+    left: 0;
     
 }
