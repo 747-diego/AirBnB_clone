@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> AirBnB clone </title>
+
+        <!-- This is where all the CSS will be pulled from  -->
+        <link rel="stylesheet" href="styles/3-header.css">
+        <link rel="stylesheet" href="styles/4-common.css">
+        <link rel="stylesheet" href="styles/6-filters.css">
+        <link rel="stylesheet" href="styles/3-footer.css">
+        <link rel="stylesheet" href="styles/8-places.css">
+
+        <link rel="icon" href="images/icon.png">
+        <link rel="icon" href="images/icon_group.png">
+        <link rel="icon" href="images/icon_bed.png">
+        <link rel="icon" href="images/icon_bath.png">
+
+
+    </head>
+
+    <body>
+
+        <!-- CSS is being called from an external link -->
+        <header>
+            <div class="logo"> </div>
+        </header>   
+
+        
+        <div class="container">
+            <!-- First section of container consists of Search bar with filtering -->
+            <section class="filters">
+
+                <!-- SEARCH BAR FUNCTIONALITY -->
+                <button type="button"> Search </button>
+
+                <!-- Location Filters  -->
+                <div class="locations"> 
+
+                    <h3> States </h3>
+                    <h4> Manhattan, New York... </h4>
+
+                <!-- Display dropdown when the mouse is on the locations filter  -->
+                    <ul class="popover">
+
+                        <li> <h2> New York City: </h2> </li>
+                        <!-- Cities or Towns are listed below -->
+                        <li>
+                            <ul>
+
+                                <li> Soho </li>
+                                <li> Chelsea </li>
+                                <li> Tribeca </li>
+
+                            </ul>
+                        </li>
+                        
+                <!-- Display dropdown when the mouse is on the locations filter  -->
+                        <li> <h2> Connecticut: </h2> </li>
+                        <!-- Cities or Towns are listed below -->
+                        <li>
+                            <ul>
+
+                                <li> Stamford </li>
+                                <li> Greenwich </li>
+                                <li> New Haven </li>
+
+                            </ul>
+                        </li>
+                    </ul> 
+                </div>
+                
+                <!-- Amenities Filters  -->
+                <div class="amenities">
+
+                    <h3> Amenities </h3>
+                    <h4> Wifi, Speaker System...</h4>   
+
+                    <!-- Display dropdown when the mouse is on the amenities filter  -->
+                    <ul class="popover">
+
+                        <li> Washing Machine </li>
+                        <li> Kitchen </li>
+                        <li> Fridge </li>
+                        <li> Iron </li>
+
+                    </ul>             
+
+                </div>
+
+            </section>
+
+            <!-- Second section consists of what places are offered -->
+            <section class="places">
+
+                <h1> Places </h1>
+
+                <article> 
+                    
+                    <!-- Name of Place  -->
+                    <h2> My Home </h2>
+
+                    <div class="price_by_night"> $30 </div>
+
+                    <div class="information">
+
+                        <div class="max_guest"> GUEST </div>
+                        <div class="number_rooms"> ROOMS </div>
+                        <div class="number_bathrooms"> BATHROOMS </div>                            
+                    
+                    </div>
+
+                    <div class="user"> <strong> Owner: </strong> Diego Tardio </div>
+
+                    <div class="description"> TESTING TEST </div>
+
+                </article>
+
+                <article> 
+                    
+                    <!-- Name of Place  -->
+                    <h2> Tiny House </h2> 
+                
+                    <div class="price_by_night"> $60 </div>
+
+                    <div class="information">
+
+                        <div class="max_guest"> GUEST </div>
+                        <div class="number_rooms"> ROOMS </div>
+                        <div class="number_bathrooms"> BATHROOMS </div>                            
+                    
+                    </div>
+
+                    <div class="user"> <strong> Owner: </strong> Diego Tardio </div>
+
+                    <div class="description"> TESTING TEST </div>                
+                
+                </article>
+
+                <article> 
+                    
+                    <!-- Name of Place  -->
+                    <h2> A Suite </h2> 
+                
+                    <div class="price_by_night"> $90 </div>
+
+                    <div class="information">
+
+                        <div class="max_guest"> GUEST </div>
+                        <div class="number_rooms"> ROOMS </div>
+                        <div class="number_bathrooms"> BATHROOMS </div>                            
+                    
+                    </div>
+
+                    <div class="user"> <strong> Owner: </strong> Diego Tardio </div>
+
+                    <div class="description"> TESTING TEST </div>
+
+                </article>
+                
+            </section>
+
+        </div> 
+
+
+        <!-- CSS for Footer is being called from an external link -->
+        <footer>
+            <p> Holberton School </p>
+        </footer>
+
+    </body>
+
+
+</html>
