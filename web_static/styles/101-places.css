@@ -1,0 +1,95 @@
+/* This is where all the CSS will be stored for our places section */
+
+/* Places header 1 is called from here  */
+.places h1 {
+    font-size: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+/* Places offered header 2 are called from here  */
+.places h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+/* The CSS for our places box known as articles is placed here  */
+.places article {
+    width: 390px;
+    margin: 20px;
+    padding: 20px;
+    border: solid 1px #FF5A5F;
+    border-radius: 4px;
+}
+
+/* Overall structure of our boxes is placed here */
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: baseline;
+}
+
+article .price_by_night {
+    color: #FF5A5F;
+    border: solid 4px #FF5A5F;
+    border-radius: 50%;
+    text-align: right;
+    min-width: 60px;
+    font-size: 30px;
+    height: 60px;
+    margin-left: 325px;
+    margin-top: -70px;
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* vertical-align: baseline; */
+
+}
+
+/* The CSS for our information class consisting of our 3 icon divs */
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100px; */
+    height: 80px;
+    border-top: solid 1px #DDDDDD;
+    border-bottom: solid 1px #DDDDDD;
+    vertical-align: baseline;
+}
+
+
+.information div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 65px;
+}
+
+
+/* This is where we call our group icon */
+.information .max_guest {
+    width: 100px;
+    background: url("../images/icon_group.png") no-repeat top center;
+}
+
+.information .number_rooms {
+    width: 100px;
+    background: url("../images/icon_bed.png") no-repeat top center;
+}
+
+.information .number_bathrooms {
+    width: 100px;
+    background: url("../images/icon_bath.png") no-repeat top center;
+}
+
+
+.user {
+    margin-bottom: 1.5%;
+  }
